@@ -5,8 +5,9 @@
 </head>
 
 <body>
+  
   <div class="container">
-    <!-- Your content goes here -->
-    <button type="button" class="btn btn-primary">Primary Button</button>
+    <h1 class="text-center">Welcome to My Website</h1>
+  <button class="btn btn-primary">Click me</button>
   </div>
 </body>
