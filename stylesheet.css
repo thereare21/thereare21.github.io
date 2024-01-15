@@ -31,3 +31,8 @@ a {
     border-image-repeat: stretch;
 }
 
+.nav-link {
+    font-family: 'Andale Mono', cursive, sans-serif;
+    color: #8B4000;
+}
+
