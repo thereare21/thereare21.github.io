@@ -1,7 +1,33 @@
+
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: aqua;
+    font-family: 'Andale Mono', cursive, sans-serif;
+    background-color: #FFE8D6;
     color: black;
     margin: 0;
     padding: 0;
 }
+
+nav {
+    font-family: 'Andale Mono', cursive, sans-serif;
+    background-color: #f39c12;
+}
+
+a {
+    font-family: 'Andale Mono', cursive, sans-serif;
+    color: #8B4000;
+}
+
+.profile-container {
+    background-color: #FFBF69;
+
+    /*border: 3px solid #2F4F4F; /* Border style, width, and color */
+    border-radius: 20px; /* Adjust the radius to control the roundness of corners */
+
+    padding: 20px; /* spacing inside */
+
+    /* Creating beveled edges */
+    border-image-source: linear-gradient(90deg, transparent 50%, #2F4F4F 25%, #2F4F4F 75%, transparent 75%, transparent) 2;
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+}
+
