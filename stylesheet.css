@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Andale Mono', cursive, sans-serif;
+    font-family: 'Andale Mono', 'Courier New', monospace, sans-serif;
     background-color: #FFE8D6;
     color: black;
     margin: 0;
@@ -8,12 +8,12 @@ body {
 }
 
 nav {
-    font-family: 'Andale Mono', cursive, sans-serif;
+    font-family: 'Andale Mono', 'Courier New', monospace, sans-serif;
     background-color: #f39c12;
 }
 
 a {
-    font-family: 'Andale Mono', cursive, sans-serif;
+    font-family: 'Andale Mono', 'Courier New', monospace, sans-serif;
     color: #8B4000;
 }
 
