@@ -31,6 +31,21 @@ a {
     border-image-repeat: stretch;
 }
 
+.project {
+    background-color: #FFBF69;
+
+    border-radius: 20px;
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+    border-image-source: linear-gradient(90deg, transparent 50%, #2F4F4F 25%, #2F4F4F 75%, transparent 75%, transparent) 2;
+    border-image-slice: 1;
+    border-image-repeat: stretch;
+
+
+}
+
 .nav-link {
     font-family: 'Andale Mono', cursive, sans-serif;
     color: #8B4000;
