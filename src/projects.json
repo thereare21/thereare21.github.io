@@ -2,14 +2,35 @@
     {
         "name": "Automated Waffle Solver",
         "imageSrc": "yadda yadda",
-        "description": "description",
-        "websiteLink": "link"
+        "description": "A Java program that can solve a game of Waffle.",
+        "websiteLink": "https://github.com/thereare21/WaffleSolver"
     },
 
     {
-        "name": "Automated Waffle Solver",
+        "name": "Bad Apple but it's ASCII Art",
         "imageSrc": "yadda yadda",
-        "description": "description",
-        "websiteLink": "link"
+        "description": "Converts Bad Apple MV into ASCII animation using C++ and OpenCV and displays it in Terminal.",
+        "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
+    },
+
+    {
+        "name": "MIDI Cascader",
+        "imageSrc": "yadda yadda",
+        "description": "Play one note, a glissando of notes will follow.",
+        "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
+    },
+
+    {
+        "name": "Soul Solace Horror Game",
+        "imageSrc": "yadda yadda",
+        "description": "Psychological Horror Game made for Brackeys Game Jam 2023",
+        "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
+    },
+
+    {
+        "name": "The Roots of Yggdrasil",
+        "imageSrc": "yadda yadda",
+        "description": "",
+        "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
     }
 ]
