@@ -1,14 +1,14 @@
 [
     {
         "name": "Automated Waffle Solver",
-        "imageSrc": "../images/WaffleSolver.png",
+        "imageSrc": "../Images/BadAppleConsole.mov",
         "description": "A Java program that can solve a game of Waffle.",
         "websiteLink": "https://github.com/thereare21/WaffleSolver"
     },
 
     {
         "name": "Bad Apple but it's ASCII Art",
-        "imageSrc": "../images/BadAppleConsole.mov",
+        "imageSrc": "../Images/BadAppleConsole.mov",
         "description": "Converts Bad Apple MV into ASCII animation using C++ and OpenCV and displays it in Terminal.",
         "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
     },
