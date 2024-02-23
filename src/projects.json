@@ -1,14 +1,14 @@
 [
     {
         "name": "Automated Waffle Solver",
-        "imageSrc": "yadda yadda",
+        "imageSrc": "../images/WaffleSolver.png",
         "description": "A Java program that can solve a game of Waffle.",
         "websiteLink": "https://github.com/thereare21/WaffleSolver"
     },
 
     {
         "name": "Bad Apple but it's ASCII Art",
-        "imageSrc": "yadda yadda",
+        "imageSrc": "../images/BadAppleConsole.mov",
         "description": "Converts Bad Apple MV into ASCII animation using C++ and OpenCV and displays it in Terminal.",
         "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
     },
@@ -23,14 +23,14 @@
     {
         "name": "Soul Solace Horror Game",
         "imageSrc": "yadda yadda",
-        "description": "Psychological Horror Game made for Brackeys Game Jam 2023",
-        "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
+        "description": "A psychological Horror Game made for Brackeys Game Jam 2023.",
+        "websiteLink": "https://tommedenney.itch.io/soul-solace"
     },
 
     {
         "name": "The Roots of Yggdrasil",
         "imageSrc": "yadda yadda",
-        "description": "",
-        "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
+        "description": "A visual novel game made for Global Game Jam 2023.",
+        "websiteLink": "https://christian-fitzpatrick.itch.io/the-roots-of-yggdrasil"
     }
 ]
