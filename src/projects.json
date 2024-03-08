@@ -21,22 +21,22 @@
     },
 
     {
-        "name": "Soul Solace Horror Game",
-        "imageSrc": "yadda yadda",
-        "description": "A psychological Horror Game made for Brackeys Game Jam 2023.",
-        "websiteLink": "https://tommedenney.itch.io/soul-solace"
-    },
-
-    {
         "name": "MIDI Cascader",
-        "imageSrc": "yadda yadda",
+        "imageSrc": "../Images/cascader.mov",
         "description": "Play one note, a glissando of notes will follow.",
         "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
     },
 
     {
+        "name": "Soul Solace Horror Game",
+        "imageSrc": "../Images/soulsolace1.png",
+        "description": "A psychological Horror Game made for Brackeys Game Jam 2023.",
+        "websiteLink": "https://tommedenney.itch.io/soul-solace"
+    },
+
+    {
         "name": "The Roots of Yggdrasil",
-        "imageSrc": "yadda yadda",
+        "imageSrc": "../Images/yggdrasil.png",
         "description": "A visual novel game made for Global Game Jam 2023.",
         "websiteLink": "https://christian-fitzpatrick.itch.io/the-roots-of-yggdrasil"
     }
