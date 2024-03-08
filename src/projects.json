@@ -1,7 +1,14 @@
 [
     {
+        "name": "Rob the E-Rat-icator",
+        "imageSrc": "../Images/rob.png",
+        "description": "Solo-developed FPS for Indie Game Dev Jam 2024",
+        "websiteLink": "https://thereare21.itch.io/rob-the-eraticator"
+    },
+    
+    {
         "name": "Automated Waffle Solver",
-        "imageSrc": "../Images/BadAppleConsole.mov",
+        "imageSrc": "../Images/WaffleSolver.png",
         "description": "A Java program that can solve a game of Waffle.",
         "websiteLink": "https://github.com/thereare21/WaffleSolver"
     },
@@ -14,17 +21,17 @@
     },
 
     {
-        "name": "MIDI Cascader",
-        "imageSrc": "yadda yadda",
-        "description": "Play one note, a glissando of notes will follow.",
-        "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
-    },
-
-    {
         "name": "Soul Solace Horror Game",
         "imageSrc": "yadda yadda",
         "description": "A psychological Horror Game made for Brackeys Game Jam 2023.",
         "websiteLink": "https://tommedenney.itch.io/soul-solace"
+    },
+
+    {
+        "name": "MIDI Cascader",
+        "imageSrc": "yadda yadda",
+        "description": "Play one note, a glissando of notes will follow.",
+        "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
     },
 
     {
