@@ -1,5 +1,6 @@
 
 
+
 const ProjectComponent = async () => {
 
     try {
@@ -23,21 +24,40 @@ const ProjectComponent = async () => {
 
 function ProjectContainer(props) {
   // Create React elements using React.createElement
+
+  const container = 
+  React.createElement('a', {href: props.websiteLink},
+    React.createElement('div', { className: 'project row' }, 
+        React.createElement('div', {className: 'col-md-6'},
+            React.createElement('h3', null, props.name),
+            React.createElement('p', null, props.description),
+            //React.createElement('a', { href: props.websiteLink, target: '_blank', rel: 'noopener noreferrer', className: 'btn btn-primary' }, 'Link'),
+            React.createElement('h5', null, props.tools)
+        ),
+        React.createElement('div', {className: 'col-md-6'},
+            React.createElement('img', { src: props.imageSrc, alt: props.name, className: 'img-fluid' })
+        )));
+
+  return container;
+
+  /*
   return React.createElement('div', { className: 'project row' },
     React.createElement('div', {className: 'col-md-6'},
         React.createElement('h3', null, props.name),
         React.createElement('p', null, props.description),
-        React.createElement('a', { href: props.websiteLink, target: '_blank', rel: 'noopener noreferrer', className: 'btn btn-primary' }, 'Link')
+        React.createElement('a', { href: props.websiteLink, target: '_blank', rel: 'noopener noreferrer', className: 'btn btn-primary' }, 'Link'),
+        React.createElement('h5', null, props.tools)
     ),
     React.createElement('div', {className: 'col-md-6'},
         React.createElement('img', { src: props.imageSrc, alt: props.name, className: 'img-fluid' })
     )
-  );
+  );*/
 }
 
 ProjectComponent.propTypes = {
     name: PropTypes.string.isRequired,
     imageSrc: PropTypes.string.isRequired,
+    tools: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     websiteLink: PropTypes.string.isRequired,
 };

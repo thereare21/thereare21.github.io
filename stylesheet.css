@@ -14,7 +14,8 @@ nav {
 
 a {
     font-family: 'Andale Mono', 'Courier New', monospace, sans-serif;
-    color: #8B4000;
+    color: #482100;
+    text-decoration: none
 }
 
 .profile-container {
@@ -24,11 +25,16 @@ a {
     border-radius: 20px; /* Adjust the radius to control the roundness of corners */
 
     padding: 20px; /* spacing inside */
+    margin-bottom: 20px;
 
     /* Creating beveled edges */
     border-image-source: linear-gradient(90deg, transparent 50%, #2F4F4F 25%, #2F4F4F 75%, transparent 75%, transparent) 2;
     border-image-slice: 1;
     border-image-repeat: stretch;
+}
+
+.project:hover {
+    transform: scale(1.05);
 }
 
 .project {

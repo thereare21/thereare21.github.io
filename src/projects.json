@@ -2,13 +2,15 @@
     {
         "name": "Rob the E-Rat-icator",
         "imageSrc": "../Images/rob.png",
-        "description": "Solo-developed FPS for Indie Game Dev Jam 2024",
+        "tools": "Unity, C#, Blender, Final Cut, Logic Pro",
+        "description": "Solo-developed first-person shooter submission for Indie Game Dev Jam 2024",
         "websiteLink": "https://thereare21.itch.io/rob-the-eraticator"
     },
     
     {
-        "name": "Automated Waffle Solver",
+        "name": "Waffle Solver",
         "imageSrc": "../Images/WaffleSolver.png",
+        "tools": "Java",
         "description": "A Java program that can solve a game of Waffle.",
         "websiteLink": "https://github.com/thereare21/WaffleSolver"
     },
@@ -16,6 +18,7 @@
     {
         "name": "Bad Apple but it's ASCII Art",
         "imageSrc": "../Images/BadAppleConsole.mov",
+        "tools": "OpenCV, C++, CMake",
         "description": "Converts Bad Apple MV into ASCII animation using C++ and OpenCV and displays it in Terminal.",
         "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
     },
@@ -23,21 +26,24 @@
     {
         "name": "MIDI Cascader",
         "imageSrc": "../Images/cascader.mov",
+        "tools": "JavaScript, Logic Pro",
         "description": "Play one note, a glissando of notes will follow.",
         "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
     },
 
     {
-        "name": "Soul Solace Horror Game",
+        "name": "Soul Solace",
         "imageSrc": "../Images/soulsolace1.png",
-        "description": "A psychological Horror Game made for Brackeys Game Jam 2023.",
+        "tools": "Unity, C#",
+        "description": "Psychological horror game submission for Brackeys Game Jam 2023.",
         "websiteLink": "https://tommedenney.itch.io/soul-solace"
     },
 
     {
         "name": "The Roots of Yggdrasil",
         "imageSrc": "../Images/yggdrasil.png",
-        "description": "A visual novel game made for Global Game Jam 2023.",
+        "tools": "RenPy, Logic Pro",
+        "description": "Visual novel submission for Global Game Jam 2023.",
         "websiteLink": "https://christian-fitzpatrick.itch.io/the-roots-of-yggdrasil"
     }
 ]
