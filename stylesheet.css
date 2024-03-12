@@ -45,11 +45,26 @@ a {
     padding: 20px;
     margin-bottom: 20px;
 
+    width: 500px;
+    height: 500px;
+    float: left;
+
+    margin: 25px;
+    
+    display: table;
+
     border-image-source: linear-gradient(90deg, transparent 50%, #2F4F4F 25%, #2F4F4F 75%, transparent 75%, transparent) 2;
     border-image-slice: 1;
     border-image-repeat: stretch;
 
 
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    
 }
 
 .nav-link {

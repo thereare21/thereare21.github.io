@@ -3,7 +3,7 @@
         "name": "Rob the E-Rat-icator",
         "imageSrc": "../Images/rob.png",
         "tools": "Unity, C#, Blender, Final Cut, Logic Pro",
-        "description": "Solo-developed first-person shooter submission for Indie Game Dev Jam 2024",
+        "description": "Solo-developed first-person shooter submission for Indie Game Dev Jam 2024.",
         "websiteLink": "https://thereare21.itch.io/rob-the-eraticator"
     },
     
@@ -19,8 +19,16 @@
         "name": "Bad Apple but it's ASCII Art",
         "imageSrc": "../Images/BadAppleConsole.mov",
         "tools": "OpenCV, C++, CMake",
-        "description": "Converts Bad Apple MV into ASCII animation using C++ and OpenCV and displays it in Terminal.",
+        "description": "Converts Bad Apple MV into ASCII animation using OpenCV and displays it in Terminal.",
         "websiteLink": "https://github.com/sepfish/BadAppleConsoleCPP"
+    },
+
+    {
+        "name": "Photomosaic",
+        "imageSrc": "../Images/cityMosaic-min.jpg",
+        "tools": "C++, CMake",
+        "description": "Assembles an image from thousands of tiny images based on perception-adjusted pixel color analysis.",
+        "websiteLink": "https://github.com/thereare21/Photomosaic"
     },
 
     {

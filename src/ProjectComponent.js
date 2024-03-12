@@ -27,16 +27,16 @@ function ProjectContainer(props) {
 
   const container = 
   React.createElement('a', {href: props.websiteLink},
-    React.createElement('div', { className: 'project row' }, 
-        React.createElement('div', {className: 'col-md-6'},
+    React.createElement('div', { className: 'project' }, 
+        React.createElement('div', {className: 'row'},
             React.createElement('h3', null, props.name),
             React.createElement('p', null, props.description),
             //React.createElement('a', { href: props.websiteLink, target: '_blank', rel: 'noopener noreferrer', className: 'btn btn-primary' }, 'Link'),
             React.createElement('h5', null, props.tools)
-        ),
-        React.createElement('div', {className: 'col-md-6'},
-            React.createElement('img', { src: props.imageSrc, alt: props.name, className: 'img-fluid' })
-        )));
+        ), 
+    React.createElement('div', {className: 'row'},
+        React.createElement('img', { src: props.imageSrc, alt: props.name, style: { height: '290px', width: 'auto'}, className: 'img-fluid rounded' })
+    )));
 
   return container;
 
