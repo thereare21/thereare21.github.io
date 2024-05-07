@@ -53,5 +53,13 @@
         "tools": "RenPy, Logic Pro",
         "description": "Visual novel submission for Global Game Jam 2023.",
         "websiteLink": "https://christian-fitzpatrick.itch.io/the-roots-of-yggdrasil"
+    },
+
+    {
+        "name": "2024 Animation Jam",
+        "imageSrc": "../Images/anim-jam-1.png",
+        "tools": "Logic Pro, Final Cut",
+        "description": "Horror animation submission for NEU Animation Game Jam 2024 (Music, Sound Design)",
+        "websiteLink": "../Images/im_sorry.mov"
     }
 ]
