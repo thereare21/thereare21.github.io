@@ -1,28 +1,30 @@
 
 
 
-const ProjectComponent = async () => {
+const ProjectCard = () => { return new Promise(async (resolve, reject) => {
 
     try {
         const response = await fetch('src/projects.json');
         const projectDataArray = await response.json();
 
         projectDataArray.forEach((projectData, index) => {
-            const domContainer = document.querySelector(`#project-container-${index}`);
+            const domContainer = document.querySelector(`#project-card-${index}`);
             const root = ReactDOM.createRoot(domContainer);
-        
 
             root.render(
-                React.createElement(ProjectContainer, projectData)
+                React.createElement(ProjectCardComponent, projectData)
             );
         });
+        console.log('Success')
+        resolve();
 
     } catch(error) {
         console.error('Error fetching or rendering project data: ', error);
+        reject('Failed to populate project containers');
     }
-};
+})};
 
-function ProjectContainer(props) {
+function ProjectCardComponent(props) {
   // Create React elements using React.createElement
 
   const container = 
@@ -54,7 +56,7 @@ function ProjectContainer(props) {
   );*/
 }
 
-ProjectComponent.propTypes = {
+ProjectCardComponent.propTypes = {
     name: PropTypes.string.isRequired,
     imageSrc: PropTypes.string.isRequired,
     tools: PropTypes.string.isRequired,
@@ -63,4 +65,4 @@ ProjectComponent.propTypes = {
 };
 
 
-export default ProjectComponent;
+export default ProjectCard;

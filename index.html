@@ -16,7 +16,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-left">
+        <ul class="navbar-nav ms-right">
           <li class="nav-item">
             <a class="nav-link" href="#aboutme">about</a>
           </li>
@@ -24,7 +24,7 @@
             <a class="nav-link" href="#project buttons">projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contact</a>
+            <a class="nav-link" href="#contact">contact</a>
           </li>
         </ul>
       </div>
@@ -34,38 +34,25 @@
   
   <body>
 
-   <br>
-   <br>
+  <div class="spacer"></div>
 
-   <div class="container-sm profile-container">
+   <div class="container-sm scroll-fade">
 
     <div class="row">
 
-      <div id="name" class="col">
-        <h1 class="text-left">raymond tsai</h1>
-        <h2 class="text-left text-body-secondary">he/him</h2>
-
+      <div class="row">
+        <div id="name" class="col">
+          <h1 class="text-center text-1">Raymond Tsai</h1>
+          <h2 class="text-center text-2">he/him</h2>
+          <h3 class="text-center text-1">Programmer, Game Designer, Musician</h1>
+          <img src="Images/me.jpg" style="height:200px;width:auto;border-radius:25%;"></img>
+        </div>
       </div>
-      
-      <div id="welcome-and-links" class="col">
-        <p class="text-body-secondary text-right">
-          welcome to my website!
-        </p>
-        <a class="link-opacity-100 link-opacity-50-hover" href="https://github.com/thereare21">github</a>
-        <br>
-        <a class="link-opacity-100 link-opacity-50-hover" href="https://www.linkedin.com/in/raymond-tsai-986a05217/">linkedin</a>
-        <br>
-        <a class="link-opacity-100 link-opacity-50-hover" href="src/RaymondTsaiResume.pdf">software resume</a>
-        <br>
-        <a class="link-opacity-100 link-opacity-50-hover" href="src/Raymond Tsai Games Resume.pdf"> games resume</a>
-      </div>
-
-      <div id="contact" class="col">
-        <p class="text-body-secondary text-right">
-          contact me:
-          <br>email: tsai.ra@northeastern.edu
-          <br>discord: thereare21#9323
-        </p>
+      <div id="links" class="row" style="padding:0 25%;align-items: center;">
+        <a class="col link-opacity-100 link-opacity-50-hover" href="https://github.com/thereare21">github</a>
+        <a class="col link-opacity-100 link-opacity-50-hover" href="https://www.linkedin.com/in/raymond-tsai-986a05217/">linkedin</a>
+        <a class="col link-opacity-100 link-opacity-50-hover" href="src/RaymondTsaiResume.pdf">cs resume</a>
+        <a class="col link-opacity-100 link-opacity-50-hover" href="src/Raymond Tsai Games Resume.pdf"> games resume</a>
       </div>
 
     </div>
@@ -73,13 +60,13 @@
     
    </div>
 
-   <br>
+   <div class="spacer"></div>
 
-   <div id="aboutme" class="container">
-    <h1 class="text-left">programmer, game designer, musician</h1>
+   <div id="aboutme" class="container scroll-fade">
+    <h1 class="text-left text-1">Who am I?</h1>
 
-    <p class="text-right">
-      Hello! My name is Raymond, and I am an Honors 2nd year studying Computer Science and Game Development at Northeastern University. As a passionate programmer, game designer, and musician, I love to pursue projects
+    <p class="text-right text-1">
+      Hello! My name is Raymond, and I am an Honors 3rd year studying Computer Science and Game Development at Northeastern University. As a passionate programmer, game designer, and musician, I love to pursue projects
       ranging all of these interests to the fullest extent.
       
       <br><br>I first started programming games and animations on Scratch when I was in middle school. Ever since, I've fallen in love with the art of programming. 
@@ -96,96 +83,109 @@
     </p>
   </div>
 
+  <div class="spacer"></div>
 
-  <div id="project buttons" class="container">
-    <h1 class="text-left">featured projects</h1>
-  </div>
+  <div id="project buttons" class="container scroll-fade">
+    <h1 class="text-left text-1">Featured Projects</h1>
 
-  <div class="container mt-4">
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" id="cs-tab" data-bs-toggle="tab" href="#cs">CS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="music-tab" data-bs-toggle="tab" href="#music">Music</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="game-tab" data-bs-toggle="tab" href="#game">Game</a>
-      </li>
-    </ul>
-
-    <!-- Tab panes -->
-    <div class="tab-content mt-2">
-      <div class="tab-pane fade show active" id="cs">
-        <!-- Content for Computer Science Projects -->
-        <p>my software projects!</p>
-
-        <div id="project-container-1" ></div>
-        <div id="project-container-2" ></div>
-        <div id="project-container-3" ></div>
-        <div id="project-container-4" ></div>
-
-      </div>
-      <div class="tab-pane fade" id="music">
-        <!-- Content for Music Tech Projects -->
-        <p>my music projects!</p>
-
-        <div id="project-container-7"></div>
-
-        <p>it's late, it's night, i can't sleep, but this is good</p>
-        <audio src="../Audio/its late, its night, i cant sleep, but this is good.mp3" controls>
-        </audio>
-        <br>
-
-        <p>falling</p>
-        <audio src="../Audio/falling.mp3" controls>
-        </audio>
-        <br>
-
-        <p>12/10/23</p>
-        <audio src="../Audio/12_10_23.mp3" controls>
-        </audio>
-        <br>
-
-        <p>8/19/23</p>
-        <audio src="../Audio/8_19_23 mix 3:18.mp3" controls>
-        </audio>
-        <br>
-
-      </div>
-      <div class="tab-pane fade" id="game">
-        <!-- Content for Game Programming Projects -->
-        <p>my games!</p>
-        
-        <div id="project-container-0" ></div>
-        <div id="project-container-5" ></div>
-        <div id="project-container-6" ></div>
-
-      </div>
+    <div id="nav-tabs" class="container mt-4 scroll-fade">
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" id="cs-tab" data-bs-toggle="tab" href="#cs">CS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="music-tab" data-bs-toggle="tab" href="#music">Music</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="game-tab" data-bs-toggle="tab" href="#game">Game</a>
+        </li>
+      </ul>
     </div>
   </div>
+
+  <!-- Tab panes -->
+  <div id="projects" class="container project-container tab-content mt-2 scroll-fade">
+    <div class="tab-pane fade show active" id="cs">
+      <!-- Content for Computer Science Projects -->
+      <p>my software projects!</p>
+
+      <div id="project-card-1" ></div>
+      <div id="project-card-2" ></div>
+      <div id="project-card-3" ></div>
+      <div id="project-card-4" ></div>
+
+    </div>
+    <div class="tab-pane fade" id="music">
+      <!-- Content for Music Tech Projects -->
+      <p>my music projects!</p>
+
+      <div id="project-card-7"></div>
+
+      <p>it's late, it's night, i can't sleep, but this is good</p>
+      <audio src="../Audio/its late, its night, i cant sleep, but this is good.mp3" controls>
+      </audio>
+      <br>
+
+      <p>falling</p>
+      <audio src="../Audio/falling.mp3" controls>
+      </audio>
+      <br>
+
+      <p>12/10/23</p>
+      <audio src="../Audio/12_10_23.mp3" controls>
+      </audio>
+      <br>
+
+      <p>8/19/23</p>
+      <audio src="../Audio/8_19_23 mix 3:18.mp3" controls>
+      </audio>
+      <br>
+
+    </div>
+    <div class="tab-pane fade" id="game">
+      <!-- Content for Game Programming Projects -->
+      <p>my games!</p>
+      
+      <div id="project-card-0" ></div>
+      <div id="project-card-5" ></div>
+      <div id="project-card-6" ></div>
+
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div id="contact" class="container-sm scroll-fade">
+    <h1 class="text-left text-1">Contact me:</h1>
+    <p class="text-left text-1">
+      <br>email: tsai.ra@northeastern.edu
+      <br>discord: thereare21#9323
+    </p>
+  </div>
+
+  <div class="spacer"></div>
+
   
 
     <!-- Include Bootstrap JS (both Popper.js and Bootstrap JS) -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
-   
     
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/prop-types@15.7.2/prop-types.min.js" crossorigin></script>
 
 
-    <script type="module" src="./src/ProjectComponent.js"></script>
-
     <script type="module">
-      import ProjectComponent from './src/ProjectComponent.js';
-
-      ProjectComponent();
+      import ProjectCard from './src/ProjectCard.js';
+      import ScrollFade from './src/ScrollFade.js'
+      ProjectCard().then(() => {
+        console.log('project component completed, calling scrollfade')
+        ScrollFade()
+      })
     </script>
-  
+
   </body>
 
 </html>
