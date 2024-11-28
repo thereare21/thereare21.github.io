@@ -12,10 +12,6 @@ export default async function ScrollFade() {
 
             let offset = elementRect.top - windowRect.top
 
-            console.log("offset", offset)
-            console.log("window scrollY", window.scrollY)
-
-            const threshold = elementRect.height / 2
             const speed = 2
             
             if (window.scrollY < offset) {
