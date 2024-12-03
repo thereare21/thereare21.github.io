@@ -43,7 +43,7 @@
         "name": "Soul Solace",
         "imageSrc": "../Images/soulsolace1.png",
         "tools": "Unity, C#",
-        "description": "Psychological horror game submission for Brackeys Game Jam 2023.",
+        "description": "Psychological horror game submission for Brackeys Game Jam 2023 (Programming, Design, SFX)",
         "websiteLink": "https://tommedenney.itch.io/soul-solace"
     },
 
@@ -51,7 +51,7 @@
         "name": "The Roots of Yggdrasil",
         "imageSrc": "../Images/yggdrasil.png",
         "tools": "RenPy, Logic Pro",
-        "description": "Visual novel submission for Global Game Jam 2023.",
+        "description": "Visual novel submission for Global Game Jam 2023 (Music, Writing, Programming)",
         "websiteLink": "https://christian-fitzpatrick.itch.io/the-roots-of-yggdrasil"
     },
 
@@ -61,5 +61,13 @@
         "tools": "Logic Pro, Final Cut",
         "description": "Horror animation submission for NEU Animation Game Jam 2024 (Music, Sound Design)",
         "websiteLink": "../Images/im_sorry.mov"
+    },
+
+    {
+        "name": "Creepy Crawl Candy Haul",
+        "imageSrc": "../Images/creepy-crawl.png",
+        "tools": "FMOD, Unity, C#",
+        "description": "A series of cute minigames for Jam-O-Lantern 2024. Created an Animal Crossing-like dialogue system that converts English text into spider noises",
+        "websiteLink": "https://alyssaybarra.itch.io/creepy-crawl-candy-haul"
     }
 ]
